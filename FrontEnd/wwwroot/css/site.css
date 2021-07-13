@@ -1,0 +1,163 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/*--NAVBAR--*/
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+/*Keep the corresponding id element to the left*/
+.navbar > #Title {
+    float: left;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: inherit;
+    color: inherit; /*Removes hyperlink decoration*/
+}
+/*--CONTAINER--*/
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*--SECTION 1--*/
+.section1 {
+    width: 100%;
+    height: auto;
+
+}
+
+.section1 > img {
+    filter: grayscale(100%); /*additional filtering options are available*/
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+        */
+}
+/*--PROJECTS--*/
+.projects{
+    padding-top: 45px;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-gap: 10px 10px;
+}
+
+.grid-item {
+    position: relative; /*This allows the other elements to be put on top*/
+
+}
+
+.grid-item > img{
+    width: 100%;
+}
+
+/*keeping elements to the top left of each grid box*/
+.itemcap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+}
+/*--ABOUT--*/
+.About {
+    padding-top: 45px;
+}
+
+.AboutContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    grid-gap: 10px 10px;
+    text-align: center;
+}
+
+.AboutContainer > .item {
+    position: relative; /*This allows the other elements to be put on top*/
+}
+
+.AboutContainer > .item > img {
+    width: 100%;
+    height: 50%;
+}
+
+.AboutContainer > .item > span{
+    opacity: 0.6;
+
+}
+/*--CONTACT--*/
+.contact {
+    padding-top: 45px;
+}
+
+.contact form{
+    padding: 10px;
+    margin-top: 20px
+}
+input[type="text"], input[type="email"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    display: block;
+}
+
+input[type="button"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    width: 20%;
+    display: block;
+}
+/*--BOTTOMPAGE--*/
+.bottompageimage{
+    width: 100%;
+    height: auto;
+}
+
+.bottompageimage img {
+    filter: grayscale(100%); /*additional filtering options are available*/
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*--FOOTER--*/
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    display: block;
+}

@@ -1,0 +1,122 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<section class="section1">
+    <!-- Image here -->
+    <img src="~/Resources/Architect.jpg" alt="Architect image"/>
+</section>
+
+<section id="projects" class="projects">
+    <h3>Projects</h3>
+    <hr>
+    <div class="gridcontainer">
+        <div class="grid-item">
+            <div class="itemcap">Architect</div>
+            <img src="~/Resources/House1.jpg" alt="House"/>
+        </div>
+
+        <div class="grid-item">
+            <div class="itemcap">Architect</div>
+            <img src="~/Resources/House2.jpg" alt="House"/>
+        </div>
+
+        <div class="grid-item">
+            <div class="itemcap">Architect</div>
+            <img src="~/Resources/House3.jpg" alt="House"/>
+        </div>
+
+        <div class="grid-item">
+            <div class="itemcap">Architect</div>
+            <img src="~/Resources/House4.jpg" alt="House"/>
+        </div>
+
+        <div class="grid-item">
+            <div class="itemcap">Architect</div>
+            <img src="~/Resources/House5.jpg" alt="House"/>
+        </div>
+
+        <div class="grid-item">
+            <div class="itemcap">Architect</div>
+            <img src="~/Resources/House6.jpg" alt="House"/>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="About">
+    <h3>About</h3>
+    <hr>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+
+    <div class="AboutContainer"><!--row-->
+
+        <!-- col -->
+        <div class="item">
+            <img src="~/Resources/profile1.jpg" alt="profile" />
+            <h3>John Doe</h3>
+            <span>CEO & Founder</span>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. 
+            Suspendisse sodales pellentesque elementum.</p>
+            <a href="">Contact</a>
+        </div>
+    
+
+
+        <div class="item">
+            <img src="~/Resources/profile2.jpg" alt="profile">
+            <h3>Jane Doe</h3>
+            <span>Architect</span>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. 
+            Suspendisse sodales pellentesque elementum.</p>
+            <a href="">Contact</a>
+        </div>
+ 
+
+  
+        <div class="item">
+            <img src="~/Resources/profile3.jpg" alt="profile">
+            <h3>Mike Ross</h3>
+            <span>Architect</span>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. 
+            Suspendisse sodales pellentesque elementum.</p>
+            <a href="">Contact</a>
+        </div>
+   
+
+  
+        <div class="item">
+            <img src="~/Resources/profile4.jpg" alt="profile">
+            <h3>Dan Star</h3>
+            <span>Architect</span>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. 
+            Suspendisse sodales pellentesque elementum.</p>
+            <a href="">Contact</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h3>Contact</h3>
+    <hr>
+    <p>Getting in touch</p>
+    <form>
+        <input type="text" name="Name" id="Name" placeholder="Name">
+        <input type="email" name="Email" id="Email" placeholder="Email">
+        <input type="text" name="Subject" id="Subject" placeholder="Subject">
+        <input type="text" name="Comment" id="Comment" placeholder="Comment">
+        <input type="button" value="SEND MESSAGE";>
+    </form>
+</section>
+
+<section class="bottompageimage">
+    <hr />
+    <img src="~/Resources/Architect.jpg" />
+</section>
