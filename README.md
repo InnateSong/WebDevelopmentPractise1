@@ -1,4 +1,4 @@
-# Web Development
+# Web Development Part 1
 
 Template used: 
 https://www.w3schools.com/w3css/tryw3css_templates_architect.htm
